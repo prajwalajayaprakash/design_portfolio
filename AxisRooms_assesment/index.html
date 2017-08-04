@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat Application</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/chat.css">
+
+</head>
+<body>
+	<div class="container">
+		<div id="top">
+			<span id="icon1" class="glyphicon glyphicon-option-horizontal"></span>
+		</div>
+	<nav class="navbar navbar-default">
+  		<div class="container nav1">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    	<div class="navbar-header">
+    		
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		<span style="font-size: 25px" class="navbar-brand glyphicon glyphicon-star"></span>
+      	</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav navbar-center">
+      				<li><h4>MESSAGES</h4></li>
+      			</ul>
+
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#">DOWNLOAD APP</a></li>
+        			<li><a href="#">LOGOUT</a></li>
+      			</ul>
+    		</div>
+   		</div>
+	</nav>
+
+	<!-- Users List -->
+	<div class="col-lg-4 col-xs-4">
+
+		<div class="row users">
+			<div class="col-lg-3 col-xs-3">
+				<img class="images" src="https://farm6.staticflickr.com/5348/8983820075_3b8f3d0a5e.jpg">
+			</div>
+			<div class="col-lg-9 col-xs-9">
+				<ul style="list-style-type: none;">
+					<li><span class="names">Nicholas</span><span class="time">8:52pm</span></li>
+					<li><p class="message">Hi! How are you?</p></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row users">
+			<div class="col-lg-3 col-xs-3">
+				<img class="images" src="https://farm3.staticflickr.com/2943/15349657352_c83c1970fb.jpg">
+			</div>
+			<div class="col-lg-9 col-xs-9">
+				<ul style="list-style-type: none;">
+					<li><span class="names">Danielle</span><span class="time">8:52pm</span></li>
+					<li><p class="message">There is a meeting at 5pm...</p></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row users">
+			<div class="col-lg-3 col-xs-3">
+				<img class="images" src="https://farm9.staticflickr.com/8609/16169099399_bd393db803.jpg">
+			</div>
+			<div class="col-lg-9 col-xs-9">
+				<ul style="list-style-type: none;">
+					<li><span class="names">Michelle</span><span class="time">8:52pm</span></li>
+					<li><p class="message">Are you free today?</p></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row users">
+			<div class="col-lg-3 col-xs-3">
+				<img class="images" src="https://farm6.staticflickr.com/5210/5366082071_095c523d3a.jpg">
+			</div>
+			<div class="col-lg-9 col-xs-9">
+				<ul style="list-style-type: none;">
+					<li><span class="names">Kateross</span><span class="time">8:52pm</span></li>
+					<li><p class="message">Hey let's get pizza for dinner tonight!</p></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row users">
+			<div class="col-lg-3 col-xs-3">
+				<img class="images" src="https://farm6.staticflickr.com/5069/5665552111_65960c97e3.jpg">
+			</div>
+			<div class="col-lg-9 col-xs-9">
+				<ul style="list-style-type: none;">
+					<li><span class="names">Robert G</span><span class="time">8:52pm</span></li>
+					<li><p class="message">Heya!!</p></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row users">
+			<div class="col-lg-3 col-xs-3">
+				<img class="images" src="https://farm6.staticflickr.com/5123/5366082127_7112813cfb.jpg">
+			</div>
+			<div class="col-lg-9 col-xs-9">
+				<ul style="list-style-type: none;">
+					<li><span class="names">Sarah lu</span><span class="time">8:52pm</span></li>
+					<li><p class="message">I will meet you some other time!</p></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Chat Box -->
+	<div class="col-lg-8 col-xs-8">
+
+	<div class="row">
+		<div class="row">
+			<p class ="sender pull-right">sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="row">
+			<img class="sender_images pull-right" src="https://farm7.staticflickr.com/6177/6154360482_a6fe68d30b.jpg">
+			<p class="chatTime pull-right">9:10pm</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="row">
+			<p class ="receiver pull-left">Excepteur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="row">
+			<img class="receiver_images pull-left" src="https://farm6.staticflickr.com/5210/5366082071_095c523d3a.jpg">
+			<p class="chatTime pull-left">9:15pm</p> 
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="row">
+			<p class ="sender pull-right">Excepteur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		</div>
+		<div class="row">
+			<img class="sender_images pull-right" src="https://farm7.staticflickr.com/6177/6154360482_a6fe68d30b.jpg">
+			<p class="chatTime pull-right">9:10pm</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="row">
+			<p class ="receiver pull-left">Excepteur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="row">
+			<img class="receiver_images pull-left" src="https://farm6.staticflickr.com/5210/5366082071_095c523d3a.jpg">
+			<p class="chatTime pull-left">9:15pm</p> 
+		</div>
+	</div>
+	</div>
+
+
+	<div class="chat-input-holder col-lg-4 col-xs-4">
+      		<textarea class="chat-input"></textarea>
+      		<a href="#"><span class="glyphicon glyphicon-search"></span></a>
+      		
+    </div>	
+
+
+	<div class="chat-input-holder col-lg-8 col-xs-8">
+      		<textarea class="chat-input"></textarea>
+      		<input type="submit" value="Send" class="message-send " />
+    </div>
+
+</div>
+
+
+
+
+	
+	
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
